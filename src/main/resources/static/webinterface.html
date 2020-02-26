@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Мои заметки</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script
+		  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  			crossorigin="anonymous">
+		></script>
+        </head>
+    <body>
+    	<div class="controls">
+	    	<div class="note_add_form">
+	    		<form id="note_form">
+				      <input type="text" name="title" id="title_form" placeholder="Заголовок"/><br/>
+				      <input type="text" name="text" id="text_form" placeholder="Заметка"/><br/>
+				      <input type="submit" id="form_submit_button" value="Создать" />
+				 </form>
+		    </div>
+		    <div class="filter">
+		    	<form id="filter_form">
+				      <input type="text" name="filterText" id="filter_field" placeholder="Фильтр"/><br/>
+				      <input type="submit" value="Применить" />
+			    </form>
+		    </div>
+	    </div>
+	    <div class="error">
+	    
+	    </div>
+		<div class="noteblock">
+    	</div>
+    	<script src="script.js"></script>
+    </body>
+</html>
